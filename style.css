@@ -160,13 +160,9 @@ p#pergunta{
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 span > ul{
-    display: inline-block;
-    
+    columns: 2; 
 }
-span > ul#lista01{
-   margin-right: 250px;
-}
-ul#lista01, #lista02{
+ul#lista01{
     padding: 10px;
     list-style-type: '✔ ';
 }
